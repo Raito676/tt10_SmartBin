@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  title:        "SmartBin"      # Project title
+  author:       "Juan Manuel Perez Cozatl, Ayshane Dominguez Davila, Miguel Alejandro Garcia Hernandez"      # Your name
+  discord:      "1_raito_1"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "Bote de basura automàtico con dos sensores de nivel que indican si està lleno o vacìo, con 2 leds que nos lo indican; un sensor de proximidad que detecta cuando alguien o algo se acerca y permite que la tapa se abra automàticamente mediante un servomotor, despuès de detectar lo que se aproxima la tapa se cerrarà pasado 10 segundos y en caso de que algo falle dentro del circuito pusimos una alarma para que lo indique. "      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -11,7 +11,7 @@ project:
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_example"
+  top_module:  "tt_SmartBin"
 
   # List your project's source files here.
   # Source files must be in ./src and you must list each source file separately, one per line.
